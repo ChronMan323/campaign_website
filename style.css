@@ -12,10 +12,7 @@
     border: 5px solid black;
     padding: 10px;
     background-color: yellow;
-
-
 }
-
 
 .subtitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -25,3 +22,9 @@
     margin: 10px;
 }
 
+.top_buttons {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: yellow;
+}
