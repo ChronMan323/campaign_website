@@ -22,9 +22,19 @@
     margin: 10px;
 }
 
-.top_buttons {
 
+.button-container {
+    display: flex;                /* Flexbox layout */
+    flex-direction: row;          /* Ensure items are in a horizontal row (default) */
+    justify-content: center;      /* Center the row of buttons horizontally */
+    gap: 10px;                    /* Optional: Adds space between the buttons */
+    margin-top: 50px;             /* Optional: Adjust vertical spacing */
+  }
+  
+  button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     background-color: yellow;
-}
+
+    cursor: pointer;              /* Optional: Pointer cursor on hover */
+  }
